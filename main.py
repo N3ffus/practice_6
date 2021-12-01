@@ -64,3 +64,6 @@ def rect_sum(image, x1, y1, x2, y2):
         sum_d = integral_matrix[x2][y1-1]
     
     summa = sum_a + sum_c - sum_b - sum_d
+    return summa
+
+
