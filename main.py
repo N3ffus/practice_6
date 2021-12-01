@@ -3,6 +3,21 @@
 Автор: Андрей Васильев
 Вариант 5
 """
+import random
+
+
+def create_matrix():
+    """
+    Создает матрицу
+    """
+    LEFT_BORDER = 5
+    RIGHT_BORDER = 10
+
+    rows = random.randint(LEFT_BORDER,RIGHT_BORDER)
+    cols = random.randint(LEFT_BORDER,RIGHT_BORDER)
+    
+    matrix = [[random.randint(0,256) for i in range(cols)] for i in range(rows)]
+    return matrix
 
 
 def integral_view(image):
