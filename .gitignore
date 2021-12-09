@@ -3,3 +3,5 @@
 *.zip
 *.txt
 .rar
+.pyc
+.mp3
