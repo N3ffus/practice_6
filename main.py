@@ -16,7 +16,7 @@ def create_matrix():
     rows = random.randint(LEFT_BORDER,RIGHT_BORDER)
     cols = random.randint(LEFT_BORDER,RIGHT_BORDER)
     
-    matrix = [[random.randint(0,256) for i in range(cols)] for i in range(rows)]
+    matrix = [[random.randint(0, 256) for i in range(cols)] for i in range(rows)]
     return matrix
 
 
